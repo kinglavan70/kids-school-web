@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
@@ -296,7 +297,7 @@ transition: calc(1s);
     margin-top: -30px;
 }
 .content-box{
-    width: 290px;
+    width: auto;
     height: 301px;
     border: 1px solid gray;
     border-radius: 16px;
@@ -350,8 +351,16 @@ transition: calc(1s);
     color: #000000;
     text-align: center;
 }
+.Standard{
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
 .section{
     margin-top: 60px;
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .view-all-button{
     text-align: center;
@@ -493,7 +502,7 @@ color: white;
     }
     .section-content{
         display: grid;
-        width: 80%;
+        width:auto;
         grid-template-columns: repeat(1,1fr);
        
     }   
@@ -502,10 +511,12 @@ color: white;
         justify-items: center;
         grid-template-columns: repeat(2,1fr);
        gap: 15px;
+     align-items: center;
+      
        
     }
     .content-box{
-     max-width: 95%;
+      margin: 8px;
      
     }
     .our-imges img{
@@ -549,6 +560,3 @@ color: white;
         margin-bottom: 10px;
     }
 }
-
-
-
