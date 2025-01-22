@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .raleway-font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* body{
+max-width: 1160px;
+margin: 0 auto;
+} */
+header, main,.footer-ad{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.logo-titel{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111111;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;    
+}
+nav li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700px;
+}
+
+
+
+/* color-styles-releted */
+.orenage-color{
+ color: #FEA301;
+}
+.color-blks{
+    color: #8700FF;
+}
+.col-n{
+    color: #64C8FF;
+}
+.sky-blue{
+    color: #01ACFD;
+}
+.color-nil{
+    color: #5D58EF;
+}
+.black-color{
+    color: #111111;
+}
+ .color-blk{
+    background-color: #111111;
+ }
+/* button-syles */
+.blt-primary{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #FEA301;
+    font-size: 1.10rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+.blt-primary-bl{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #111111;
+    font-size: 1.10rem;
+    font-weight: 700;
+    color: white;
+    border: none;}
+/* bennar-syles-releted */
+.bennar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    max-width: 1158px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+.bennar-titel{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.bennar-description{
+    font-size: 1rem;
+    padding-top: 24px;
+   
+}
+.image-picture{
+    width: 100%;   
+}
+.blt-buton{
+    padding-top: 24px;
+    
+}
+/* main syles suro */
+main{
+    margin-top: 60px;
+}
+.section-head{
+    font-size: 2.87rem;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+}
+.containar{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 80px;
+}
+.card-box1{
+    width: 367px;
+    height: 476px;
+    border: 1px solid gray;
+    border-radius: 19px;
+    box-shadow: 0 150px 30px 0 inset #DEF5FF;
+    border: none;
+    background-color:#FFFFFF;
+}
+
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    
+    text-align: center;
+    justify-items: center;
+    /* padding-top: 40px;
+    padding-bottom: 30px; */
+  
+}
+.card-box2{
+    width: 367px;
+    height: 476px;
+    border: 1px solid gray;
+    border-radius: 19px;
+    box-shadow: 0 150px 30px 0 inset #FFF4DC;
+    border: none;
+    background-color:#FFFFFF;
+}
+.card-box3{
+    width: 367px;
+    height: 476px;
+    border: 1px solid gray;
+    border-radius: 19px;
+    box-shadow: 0 150px 30px 0 inset #F2E8FF;
+    border: none;
+    background-color:#FFFFFF;
+}
+
+
+.box-1{
+    padding-top: 83px;
+    padding-bottom: 83px;
+    text-align: center;
+    padding-top: 82px;
+}
+.box-titel{
+    font-size:1.75rem;
+   font-weight: 700;
+   color: #202020;
+   padding-top: 32px;
+}
+.box-dscription{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+    padding-top: 32px;
+   
+}
+.Red-more {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #64C8FF;
+    padding-top: 38px;
+}
+.card-box1 a{
+    text-decoration: none;
+}
+.card-box3 a{
+    text-decoration: none;
+}
+.card-box2 a{
+    text-decoration: none;
+}
+.blt-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FEA301;
+    color: white;
+    font-size: 2rem;
+    border: none;
+  
+    
+}
+/* .text-center{
+    text-align: center;
+    
+} */
+.arrow-button{
+    margin-top: 80px;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+  
+}
+button:hover{
+background-color: #01ACFD;
+transition: calc(1s);
+}
+.our-storirs-card{
+        /* border: 2px solid gray; */
+        width: 540px;
+        height: 630px;
+        border-radius: 26px;
+        background-color:white;
+        box-shadow: 0px 30px 80px 0px rgba(217, 217, 217, 1);
+         
+    }
+.img-our{
+    width: 540px;
+    height: 340px;
+    border-top-left-radius:16px ;
+    border-top-right-radius:16px ;
+}
+.section-con{
+    background-color: #FEA301;
+}
+.boder{
+    border-top-left-radius:16px ;
+}
+.our-titel{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+  width: 500px;
+  height: 100px;
+  padding-left: 25px;
+  margin-top: 58px;
+  
+}
+.our-description{
+    font-size: 1rem;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+.button-ours{
+    width: 174px;
+    height: 47px;
+    background-color: #01ACFD;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+   
+}
+.blt-b{
+    position: relative;
+    margin-left: 40px;
+    margin-top: -30px;
+}
+.content-box{
+    width: 290px;
+    height: 301px;
+    border: 1px solid gray;
+    border-radius: 16px;
+    box-shadow: 0 20px 30px 0 rgba(217, 217, 217, 1) ;
+    border: none;
+}
+.our-imges img{
+    width: 291px;
+    height: 177px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.content-titel{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+    padding-left: 32px;
+    padding-top: 30px;
+}
+.content-button{
+    width: 174px;
+    height: 38px;
+    background-color: #95B226;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 18px;
+}
+.content-blt{
+    position: relative;
+    margin-left: 35px;
+    margin-top: -35px;
+}
+.section-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 80px;
+}
+.content{
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+.color-blu{
+    background-color: #5D58F0;
+}
+.Our-Stories{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+}
+.section{
+    margin-top: 60px;
+}
+.view-all-button{
+    text-align: center;
+    margin-top: 80px;
+}
+.color-2{
+    background-color: #000000;
+}
+/* footer section releted */
+footer{
+   height: 516px;
+    margin: 0 auto;
+    background-color: #01ACFD;
+}
+.footer-ad{
+    margin-top: 60px;
+}
+.footer-admission{
+    width: 1070px;
+    height: 222px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding-top: 130px;
+    /* margin-top: 10px; */
+ 
+}
+.item{
+list-style-type: none;
+font-size: 1.25rem;
+font-weight: 500;
+color: white;
+}
+.about-titel{
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 700;
+  
+}
+.items-admission{
+    display: flex;
+    flex-direction: column;
+     row-gap: 10px;
+     margin-top: 20px;
+}
+.Touch-toch{
+    font-size: 2rem;
+    font-weight: 700px;
+    color: white;
+    margin-bottom: 30px;
+}
+.kids-logo{
+    display: flex;
+    align-items: center;
+}
+.kids-head{
+    font-size: 2.29rem;
+    font-weight: 700;
+    color: white;
+}
+.the-courage{
+    font-size: 1rem;
+    color: white;
+    padding-top: 8px;   
+}
+.seantdary-bg{
+    background-color: #F7F7F7;
+}
+
+
+
+
+
+@media only screen and (max-width:576px) {
+    nav, .containar{
+        display: flex;
+        flex-direction: column;
+    }
+    .containar{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .section-head{
+        font-size: 2rem;
+    }
+    .card-box1{
+        width: 80%;
+        box-shadow: 20px 120px 80px 0 inset #DEF5FF;
+        text-align: center;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 30px;
+    }
+    .card-box2{
+        width: 80%;
+        box-shadow: 20px 120px 80px 0  inset #FFF4DC;
+        text-align: center;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 30px;}
+      .card-box3{
+        width: 80%;
+        box-shadow: 20px 120px 80px 0 inset #F2E8FF;
+        text-align: center;
+       
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 30px;}
+    .bennar{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-items: center;
+        text-align: center;
+    }
+    .image-picture img{
+        width: 80%;
+    }
+    .bennar-titel{
+        font-size: 3rem;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .blt-primary{
+        width: 40%;
+        margin-top: 20px;
+    }
+    .blt-button{
+        display: none;
+    }
+    .Our-Stories {
+      text-align: center;
+      margin-left: 60px;
+    }
+    .section-content{
+        display: grid;
+        width: 80%;
+        grid-template-columns: repeat(1,1fr);
+       
+    }   
+    .content{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2,1fr);
+       gap: 15px;
+       
+    }
+    .content-box{
+     max-width: 95%;
+     
+    }
+    .our-imges img{
+      width: 100%;
+    }
+    .our-storirs-card{
+        display: none;
+         
+    }
+    .footer-admission{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-admission{
+        width: 50%;
+        height: 20%;
+        padding-top: 20px;
+        justify-items: center;
+    }
+    .items-admission{
+        flex-direction: column;
+        display: flex;
+        text-align: justify;
+        justify-content: center;
+       padding-right: 90px;
+    }
+    footer{
+        width: 576px;
+        height: 516px;
+    }
+    .the-courage{
+        padding-left: 30px;
+    }
+    .kids-logo{
+        padding-left: 30px;
+    }
+    .Touch-toch{
+        font-size: 2rem;
+        padding-top: 10px;
+        font-weight: 600px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
